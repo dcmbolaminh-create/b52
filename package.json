@@ -1,0 +1,38 @@
+{
+  "name": "b52-ai-server",
+  "version": "1.0.0",
+  "description": "Server B52.js chạy chuẩn tiếng Việt",
+  "main": "b52.js",
+  "type": "module",
+  "scripts": {
+    "start": "node b52.js",
+    "dev": "nodemon b52.js"
+  },
+  "keywords": [
+    "b52",
+    "ai",
+    "nodejs",
+    "server"
+  ],
+  "author": "vanminh2603",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^10.0.0",
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fastify": "^5.0.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
